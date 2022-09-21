@@ -17,6 +17,8 @@
 		5251613528DB578E003F6AC6 /* CnexiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251613428DB578E003F6AC6 /* CnexiaTests.swift */; };
 		5251613F28DB578E003F6AC6 /* CnexiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251613E28DB578E003F6AC6 /* CnexiaUITests.swift */; };
 		5251614128DB578E003F6AC6 /* CnexiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251614028DB578E003F6AC6 /* CnexiaUITestsLaunchTests.swift */; };
+		5251614F28DB57EA003F6AC6 /* GuidomiaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251614E28DB57EA003F6AC6 /* GuidomiaService.swift */; };
+		5251615128DB581B003F6AC6 /* GuidomiaStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251615028DB581B003F6AC6 /* GuidomiaStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5251613A28DB578E003F6AC6 /* CnexiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CnexiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5251613E28DB578E003F6AC6 /* CnexiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnexiaUITests.swift; sourceTree = "<group>"; };
 		5251614028DB578E003F6AC6 /* CnexiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnexiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5251614E28DB57EA003F6AC6 /* GuidomiaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidomiaService.swift; sourceTree = "<group>"; };
+		5251615028DB581B003F6AC6 /* GuidomiaStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidomiaStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		5251611928DB578D003F6AC6 /* Cnexia */ = {
 			isa = PBXGroup;
 			children = (
+				5251614D28DB57BA003F6AC6 /* Services */,
 				5251611A28DB578D003F6AC6 /* AppDelegate.swift */,
 				5251611C28DB578D003F6AC6 /* SceneDelegate.swift */,
 				5251611E28DB578D003F6AC6 /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				5251614028DB578E003F6AC6 /* CnexiaUITestsLaunchTests.swift */,
 			);
 			path = CnexiaUITests;
+			sourceTree = "<group>";
+		};
+		5251614D28DB57BA003F6AC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5251614E28DB57EA003F6AC6 /* GuidomiaService.swift */,
+				5251615028DB581B003F6AC6 /* GuidomiaStorage.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251614F28DB57EA003F6AC6 /* GuidomiaService.swift in Sources */,
 				5251611F28DB578D003F6AC6 /* ViewController.swift in Sources */,
+				5251615128DB581B003F6AC6 /* GuidomiaStorage.swift in Sources */,
 				5251611B28DB578D003F6AC6 /* AppDelegate.swift in Sources */,
 				5251611D28DB578D003F6AC6 /* SceneDelegate.swift in Sources */,
 				5251612528DB578D003F6AC6 /* Cnexia.xcdatamodeld in Sources */,
