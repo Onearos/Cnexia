@@ -27,14 +27,14 @@
 		5251616228DB59C5003F6AC6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251616128DB59C5003F6AC6 /* UIColor.swift */; };
 		5251616428DB59EA003F6AC6 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 5251616328DB59EA003F6AC6 /* car_list.json */; };
 		5251616628DB5A4D003F6AC6 /* GuidomiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251616528DB5A4D003F6AC6 /* GuidomiaViewController.swift */; };
-		5251617128DB5A96003F6AC6 /* CarsTableViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251616928DB5A96003F6AC6 /* CarsTableViewItem.swift */; };
-		5251617228DB5A96003F6AC6 /* SeparatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251616A28DB5A96003F6AC6 /* SeparatorTableViewCell.xib */; };
-		5251617328DB5A96003F6AC6 /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251616B28DB5A96003F6AC6 /* CarTableViewCell.xib */; };
-		5251617428DB5A96003F6AC6 /* ExpandedCarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251616C28DB5A96003F6AC6 /* ExpandedCarTableViewCell.xib */; };
-		5251617528DB5A96003F6AC6 /* CarsTableViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251616D28DB5A96003F6AC6 /* CarsTableViewCellFactory.swift */; };
-		5251617628DB5A96003F6AC6 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251616E28DB5A96003F6AC6 /* CarTableViewCell.swift */; };
-		5251617728DB5A96003F6AC6 /* SeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251616F28DB5A96003F6AC6 /* SeparatorTableViewCell.swift */; };
-		5251617828DB5A96003F6AC6 /* ExpandedCarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251617028DB5A96003F6AC6 /* ExpandedCarTableViewCell.swift */; };
+		5251618128DB5B22003F6AC6 /* ExpandedCarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251617928DB5B22003F6AC6 /* ExpandedCarTableViewCell.swift */; };
+		5251618228DB5B22003F6AC6 /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251617A28DB5B22003F6AC6 /* CarTableViewCell.xib */; };
+		5251618328DB5B22003F6AC6 /* CarsTableViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251617B28DB5B22003F6AC6 /* CarsTableViewItem.swift */; };
+		5251618428DB5B22003F6AC6 /* CarsTableViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251617C28DB5B22003F6AC6 /* CarsTableViewCellFactory.swift */; };
+		5251618528DB5B22003F6AC6 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251617D28DB5B22003F6AC6 /* CarTableViewCell.swift */; };
+		5251618628DB5B22003F6AC6 /* SeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251617E28DB5B22003F6AC6 /* SeparatorTableViewCell.swift */; };
+		5251618728DB5B22003F6AC6 /* SeparatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251617F28DB5B22003F6AC6 /* SeparatorTableViewCell.xib */; };
+		5251618828DB5B22003F6AC6 /* ExpandedCarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251618028DB5B22003F6AC6 /* ExpandedCarTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,14 +79,14 @@
 		5251616128DB59C5003F6AC6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5251616328DB59EA003F6AC6 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
 		5251616528DB5A4D003F6AC6 /* GuidomiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidomiaViewController.swift; sourceTree = "<group>"; };
-		5251616928DB5A96003F6AC6 /* CarsTableViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewItem.swift; sourceTree = "<group>"; };
-		5251616A28DB5A96003F6AC6 /* SeparatorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorTableViewCell.xib; sourceTree = "<group>"; };
-		5251616B28DB5A96003F6AC6 /* CarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
-		5251616C28DB5A96003F6AC6 /* ExpandedCarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandedCarTableViewCell.xib; sourceTree = "<group>"; };
-		5251616D28DB5A96003F6AC6 /* CarsTableViewCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewCellFactory.swift; sourceTree = "<group>"; };
-		5251616E28DB5A96003F6AC6 /* CarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
-		5251616F28DB5A96003F6AC6 /* SeparatorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorTableViewCell.swift; sourceTree = "<group>"; };
-		5251617028DB5A96003F6AC6 /* ExpandedCarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedCarTableViewCell.swift; sourceTree = "<group>"; };
+		5251617928DB5B22003F6AC6 /* ExpandedCarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedCarTableViewCell.swift; sourceTree = "<group>"; };
+		5251617A28DB5B22003F6AC6 /* CarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
+		5251617B28DB5B22003F6AC6 /* CarsTableViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewItem.swift; sourceTree = "<group>"; };
+		5251617C28DB5B22003F6AC6 /* CarsTableViewCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewCellFactory.swift; sourceTree = "<group>"; };
+		5251617D28DB5B22003F6AC6 /* CarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		5251617E28DB5B22003F6AC6 /* SeparatorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorTableViewCell.swift; sourceTree = "<group>"; };
+		5251617F28DB5B22003F6AC6 /* SeparatorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorTableViewCell.xib; sourceTree = "<group>"; };
+		5251618028DB5B22003F6AC6 /* ExpandedCarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandedCarTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,14 +236,14 @@
 		5251616828DB5A6A003F6AC6 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				5251616D28DB5A96003F6AC6 /* CarsTableViewCellFactory.swift */,
-				5251616928DB5A96003F6AC6 /* CarsTableViewItem.swift */,
-				5251616E28DB5A96003F6AC6 /* CarTableViewCell.swift */,
-				5251616B28DB5A96003F6AC6 /* CarTableViewCell.xib */,
-				5251617028DB5A96003F6AC6 /* ExpandedCarTableViewCell.swift */,
-				5251616C28DB5A96003F6AC6 /* ExpandedCarTableViewCell.xib */,
-				5251616F28DB5A96003F6AC6 /* SeparatorTableViewCell.swift */,
-				5251616A28DB5A96003F6AC6 /* SeparatorTableViewCell.xib */,
+				5251617C28DB5B22003F6AC6 /* CarsTableViewCellFactory.swift */,
+				5251617B28DB5B22003F6AC6 /* CarsTableViewItem.swift */,
+				5251617D28DB5B22003F6AC6 /* CarTableViewCell.swift */,
+				5251617A28DB5B22003F6AC6 /* CarTableViewCell.xib */,
+				5251617928DB5B22003F6AC6 /* ExpandedCarTableViewCell.swift */,
+				5251618028DB5B22003F6AC6 /* ExpandedCarTableViewCell.xib */,
+				5251617E28DB5B22003F6AC6 /* SeparatorTableViewCell.swift */,
+				5251617F28DB5B22003F6AC6 /* SeparatorTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -352,13 +352,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5251617428DB5A96003F6AC6 /* ExpandedCarTableViewCell.xib in Resources */,
-				5251617328DB5A96003F6AC6 /* CarTableViewCell.xib in Resources */,
+				5251618828DB5B22003F6AC6 /* ExpandedCarTableViewCell.xib in Resources */,
 				5251612A28DB578E003F6AC6 /* LaunchScreen.storyboard in Resources */,
 				5251612728DB578E003F6AC6 /* Assets.xcassets in Resources */,
+				5251618228DB5B22003F6AC6 /* CarTableViewCell.xib in Resources */,
+				5251618728DB5B22003F6AC6 /* SeparatorTableViewCell.xib in Resources */,
 				5251616428DB59EA003F6AC6 /* car_list.json in Resources */,
 				5251612228DB578D003F6AC6 /* Main.storyboard in Resources */,
-				5251617228DB5A96003F6AC6 /* SeparatorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,23 +383,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5251617728DB5A96003F6AC6 /* SeparatorTableViewCell.swift in Sources */,
 				5251615528DB592D003F6AC6 /* FetchImage.swift in Sources */,
-				5251617128DB5A96003F6AC6 /* CarsTableViewItem.swift in Sources */,
-				5251617528DB5A96003F6AC6 /* CarsTableViewCellFactory.swift in Sources */,
 				5251616228DB59C5003F6AC6 /* UIColor.swift in Sources */,
+				5251618528DB5B22003F6AC6 /* CarTableViewCell.swift in Sources */,
 				5251615928DB5963003F6AC6 /* GuidomiaPresenter.swift in Sources */,
 				5251615E28DB599C003F6AC6 /* Car.swift in Sources */,
 				5251614F28DB57EA003F6AC6 /* GuidomiaService.swift in Sources */,
 				5251616628DB5A4D003F6AC6 /* GuidomiaViewController.swift in Sources */,
 				5251615328DB5917003F6AC6 /* FetchCars.swift in Sources */,
+				5251618128DB5B22003F6AC6 /* ExpandedCarTableViewCell.swift in Sources */,
+				5251618628DB5B22003F6AC6 /* SeparatorTableViewCell.swift in Sources */,
 				5251611F28DB578D003F6AC6 /* ViewController.swift in Sources */,
-				5251617828DB5A96003F6AC6 /* ExpandedCarTableViewCell.swift in Sources */,
-				5251617628DB5A96003F6AC6 /* CarTableViewCell.swift in Sources */,
 				5251615128DB581B003F6AC6 /* GuidomiaStorage.swift in Sources */,
 				5251616028DB59B4003F6AC6 /* LabelViewModel.swift in Sources */,
 				5251611B28DB578D003F6AC6 /* AppDelegate.swift in Sources */,
 				5251611D28DB578D003F6AC6 /* SceneDelegate.swift in Sources */,
+				5251618428DB5B22003F6AC6 /* CarsTableViewCellFactory.swift in Sources */,
+				5251618328DB5B22003F6AC6 /* CarsTableViewItem.swift in Sources */,
 				5251612528DB578D003F6AC6 /* Cnexia.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
